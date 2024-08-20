@@ -1,0 +1,41 @@
+{
+  "name": "@search4asraful/vue-carousel",
+  "version": "0.0.1",
+  "private": false,
+  "description": "A Customizable Vue3 carousel component.",
+  "type": "module",
+  "main": "dist/vue-carousel.umd.js",
+  "module": "dist/vue-carousel.es.js",
+  "style": "dist/style.css",
+  "files": ["dist/*", "dist/**/*.css", "*.js", "*.json"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/search4asraful/vue-carousel.git"
+  },
+  "keywords": [
+    "vue",
+    "carousel",
+    "vue-carousel",
+    "slider",
+    "slider-carousel",
+    "component"
+  ],
+  "author": "search4asraful",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/search4asraful/vue-carousel/issues"
+  },
+  "homepage": "https://github.com/search4asraful/vue-carousel#readme"
+}
