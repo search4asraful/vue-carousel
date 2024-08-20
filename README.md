@@ -27,11 +27,11 @@ npm run build
 ```
 
 ### Demo image | used as Carousel
-![Carousel](https://raw.githubusercontent.com/search4asraful/vue-carousel/main/public/image_carousel_demo.png)
+![Carousel](https://raw.githubusercontent.com/search4asraful/vue-carousel/main/src/assets/image_carousel_demo.png)
 
 
 ### Demo image | used as feedback section
-![Feedback](https://raw.githubusercontent.com/search4asraful/vue-carousel/main/public/demo.png)
+![Feedback](https://raw.githubusercontent.com/search4asraful/vue-carousel/main/src/assets/demo.png)
 
 
 ### Configuration

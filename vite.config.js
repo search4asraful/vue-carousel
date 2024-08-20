@@ -1,17 +1,16 @@
-// vite.config.js
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
+import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(), cssInjectedByJsPlugin()],
   build: {
     lib: {
-      entry: "./src/components/VueCarousel.vue", // Path to your component
-      name: "VueCarousel", // The name of your library
-      fileName: (format) => `vue-carousel.${format}.js`, // File name pattern
+      entry: "./src/components/VueCarousel.vue",
+      name: "VueCarousel",
+      fileName: (format) => `vue-carousel.${format}.js`,
     },
     rollupOptions: {
-      // Make sure to externalize dependencies that shouldn't be bundled
       external: ["vue"],
       output: {
         globals: {

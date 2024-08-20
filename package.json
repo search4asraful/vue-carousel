@@ -7,7 +7,12 @@
   "main": "dist/vue-carousel.umd.js",
   "module": "dist/vue-carousel.es.js",
   "style": "dist/style.css",
-  "files": ["dist/*", "dist/**/*.css", "*.js", "*.json"],
+  "files": [
+    "dist/*",
+    "dist/**/*.css",
+    "*.js",
+    "*.json"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,7 +23,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
-    "vite": "^5.3.1"
+    "vite": "^5.3.1",
+    "vite-plugin-css-injected-by-js": "^3.5.1"
   },
   "repository": {
     "type": "git",
